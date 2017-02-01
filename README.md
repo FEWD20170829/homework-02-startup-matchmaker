@@ -9,3 +9,6 @@ The website should meet the following criteria:
 - Code for the site should make good use of indentation
 - Demonstrate proper use of background image
 - Site should use an external style sheet
+
+
+![deliverable](https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker/blob/StartupMatchmaker.png)
