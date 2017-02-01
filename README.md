@@ -10,5 +10,4 @@ The website should meet the following criteria:
 - Demonstrate proper use of background image
 - Site should use an external style sheet
 
-
-![deliverable](https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker/blob/StartupMatchmaker.png)
+![deliverable](https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker/blob/master/StartupMatchmaker.png)
