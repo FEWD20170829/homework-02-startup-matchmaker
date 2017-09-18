@@ -8,6 +8,13 @@ h1{
 
 a{
 	color: white;
+  margin-right: 5%;
+  text-decoration: none;
+}
+
+.create{
+  color: black;
+  background color: yellow;
 }
 
 .container {
@@ -16,6 +23,41 @@ a{
   overflow: auto;
   background-color: black;
   border-bottom: 5px solid yellow;
+}
+
+.main {
+  width: 75%;
+  overflow: auto;
+}
+
+.module{
+  width: 75%;
+  text-align: center;
+  background-color: lightgray;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+u {
+    text-decoration: underline yellow;
+}
+
+strike{
+  color: gray;
+}
+
+.section{
+  height: 150px;
+  background-color: #eee;
+  border: 1px solid #333;
+  width: 30%;
+  float: left;
+}
+
+.center-section{
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
 }
 
 header {
@@ -33,6 +75,6 @@ header .logo {
 }
 
 .nav-item{
-	width: 60%;
+	width: 75%;
 	float:right;
 }
