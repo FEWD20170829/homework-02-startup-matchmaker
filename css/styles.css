@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  margin: 0 auto;
+  width: 1080px;
+  overflow: auto;
+  background-color: #333333;
+  height: 100vh;
+
+}
+
+.header {
+  background-color: black;
+  height: 100px;
+  padding: 10px;
+  padding-left: 20px;
+
+}
+
+.header h1  {
+  color: yellow;
+}
+.nav  {
+  text-align: right;
+  color: white;
+  background-color: black;
+  border-bottom: 5px solid yellow;
+  padding-bottom: 20px;
+
+
+}
+.nav a {
+  font-size: 20px;
+  color: white;
+  /*font-family: Impact,fantasy;*/
+  margin-right: 20px;
+  text-decoration: none;
+
+
+}
+
+.slogan {
+  background-color: lightgray;
+  height: 80px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+  float: left;
+  width: 1080px;
+
+}
+
+.taste {
+  color: rgba(105,105,105,0.5);
+  text-decoration: line-through;
+}
+
+.yellow {
+  display: inline-block;
+  position: relative;
+  text-decoration: underline yellow;
+
+}
+
+.article  {
+  height: 500px;
+ background-image: url('../images/coworking.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ clear: left;
+
+}
+
+.article div {
+  float: right;
+  width: 30%;
+  border: 1px solid #333333;
+  box-shadow: 1px 1px #333333;
+  height: 450px;
+  background:rgba(255,255,255,0.8);
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 25px;
+
+}
+.article p {
+  font-size: 23px;
+  text-align: left;
+
+
+}
+
+.yellowbox {
+position: absolute;
+background-color: yellow;
+top: 590px;
+left: 940px;
+height: 75px;
+width: 260px;
+
+}
+
+.yellowbox p{
+  font-family: Impact,fantasy;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.create {
+  background-color: yellow;
+  width: 50px;
+  height: 10px;
+}
+
+.section1 {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  
+  
+}
+
+.section2 {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  
+  
+}
+
+.section3 {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: white;
+text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.signupbox {
+position: absolute;
+background-color: #C0C0C0;
+top: 925px;
+left: 225px;
+height: 75px;
+width: 260px;
+}
+
+.signupbox p  {
+font-family: Impact,fantasy;
+  text-align: center;
+  font-size: 25px;
+
+}
+.middlesignbox  {
+position: absolute;
+background-color: #C0C0C0;
+top: 925px;
+left: 580px;
+height: 75px;
+width: 260px;
+}
+
+.middlesignbox p {
+font-family: Impact,fantasy;
+  text-align: center;
+  font-size: 25px;
+}
+
+.rightsignbox {
+position: absolute;
+background-color: #C0C0C0;
+top: 925px;
+left: 940px;
+height: 75px;
+width: 260px;
+}
+
+.rightsignbox p{
+font-family: Impact,fantasy;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+
+footer  {
+  height: 50px;
+  background-color: black;
+  clear: left;
+  color: white;
+  font-size: 20px;
+ padding-top: 1px;
+ padding-left: 25px;
+}
