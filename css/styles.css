@@ -12,22 +12,25 @@ a{
   text-decoration: none;
 }
 
-.create{
-  color: black;
-  background color: yellow;
+.content {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  background-color: rgba(253, 254, 254, 0.5); 
+  overflow: auto;
+  margin: 0 auto;
+  border: 1px solid #333;
 }
 
-.container {
+.main {
   width: 75%;
   margin: 0 auto;
   overflow: auto;
   background-color: black;
   border-bottom: 5px solid yellow;
-}
-
-.main {
-  width: 75%;
-  overflow: auto;
 }
 
 .module{
