@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+body {
+  background-color: darkgray;
+}
+
+header {
+  height: 145px;
+  background-color: black;
+  border: 1px solid #333;
+  margin: 0px;
+  color: white;
+}
+
+h1 {
+  color: yellow;
+  padding-left: 20px;
+  font-size: 50px;
+  margin: 1px 10px 1px 10px;
+  padding: 0px 10px 0px 10px;
+  font-family:
+
+}
+nav {
+  margin: 1px 10px 1px 10px;
+  padding: 1px 10px 1px 10px;
+  text-align: right;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+ul a {
+  list-style-type: none;
+  margin: 1px 5px 1px 5px;
+  padding: 1px 5px 1px 5px;
+  text-align: right;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+nav span {
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+section {
+  height: 100px;
+  background-color: lightgray;
+  border: 5px solid transparent;
+  margin: 0px;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  border-top: solid yellow;
+}
+
+article {
+  height: 500px;
+  border: 1px solid #333;
+  width: 100%;
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: -190px;
+}
+
+button {
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+.profile {
+  height: 450px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #333;
+  float: right;
+  width: 35%;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+}
+
+.profile h3 {
+  font-size: 40px;
+}
+
+.profile p {
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.profile button {
+  background-color: yellow;
+  padding: 14px 40px;
+  font-size: 25px;
+  max-width: 100%;
+  font-weight: bold;
+  position: absolute;
+}
+
+.article {
+  height: 200px;
+  background-color: yellow;
+  border: 1px solid #333;
+  float: left;
+  width: 35%;
+  margin: 0px;
+  max-width: 100%;
+}
+
+.left {
+  height: 400px;
+  background-color: white;
+  border-right: 1px solid gray;
+  border-top: 40px solid white;
+  border-bottom: 40px solid white;
+  float: left;
+  width: 34%;
+  margin: 10px white;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right-color: gray;
+}
+
+.middle {
+  height: 400px;
+  background-color: white;
+  border-right: 1px solid gray;
+  border-top: 40px solid white;
+  border-bottom: 40px solid white;
+  float: left;
+  width: 33%;
+  margin: 10px white;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right-color: gray;
+}
+
+.right {
+  height: 400px;
+  background-color: white;
+  border-top: 40px solid white;
+  border-bottom: 40px solid white;
+  float: left;
+  width: 33%;
+  margin: 10px white;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.left button {
+  padding: 14px 40px;
+  font-size: 25px;
+  max-width: 100%;
+  font-weight: bold;
+  position: absolute;
+}
+
+.middle button {
+  padding: 14px 40px;
+  font-size: 25px;
+  max-width: 100%;
+  font-weight: bold;
+  position: absolute;
+}
+
+.right button {
+  padding: 14px 40px;
+  font-size: 25px;
+  max-width: 100%;
+  font-weight: bold;
+  position: absolute;
+}
+
+div h3 {
+  margin: 1px 1px 1px 1px;
+  font-size: 40px;
+}
+
+.taste {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.are {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.left p {
+  margin: 1px;
+  font-size: 37px;
+}
+
+.middle p {
+  margin: 1px;
+  font-size: 38px;
+}
+
+.right p {
+  margin: 1px;
+  font-size: 40px;
+  }
+
+footer {
+  height: 70px;
+  background-color: black;
+  border: 10px solid black;
+  margin: 0px;
+  clear: left;
+  max-width: 100%;
+  color: white;
+}
+
+footer p {
+  padding: 10px;
+  margin: 1px;
+  font-size: 25px;
+}
