@@ -2,7 +2,99 @@
   box-sizing: border-box;
 }
 
+body {
+    background-image: url("../images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    float: center center;
+    padding-right: 50px;
+  }
+
+
 p {
   text-align: center;
+  color: black;
 }
+
+h1  {
+  color: yellow;
+  padding-left: 30px;
+}
+
+h2  {
+  height: 200px;
+}
+
+.container  {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  padding: 24px 0;
+  background-color: #FFFAFA;
+  opacity: 0.5;
+}
+
+.nav-items {
+  color: white;
+  width: 1020px;
+  text-align: right;
+  font-size: x-large;
+}
+
+a:hover {
+  color: #6A5ACD;
+}
+
+header  {
+  color: white;
+  background-color: #000000;
+  padding-left: 100px;
+  padding-right: 50px;
+
+}
+
+a {
+  color: white;
+}
+
+footer p  {
+  color: #000000;
+  width: 1020px;
+  text-align: left;
+}
+
+hr {
+  border-color: yellow;
+  display: block;
+  height: 5px;
+}
+
+.one  {
+  border-color: none;
+  width: 0;
+}
+
+.two  {
+  border-color: none;
+  width: 0;
+
+}
+
+aside.match  {
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
