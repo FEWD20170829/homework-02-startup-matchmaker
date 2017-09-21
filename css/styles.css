@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  border-bottom: 3px solid yellow;
+  background-color: black;
+  color: white;
+  padding: 1px 30px;
+}
+
+header h1 {
+  color: yellow;
+  font-size: 35px;
+  font-family: 'Merriweather';
+}
+
+nav {
+  text-align: right;
+  padding-bottom: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: initial; 
+  padding: 10px; /*10px 30px 10px;*/
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+}
+
+/* tagline */
+.tagline {
+  border: 1px solid black;
+  height: 80px;
+  text-align: center; 
+  font-size: 30px;
+  font-style: italic;
+  background-color: lightgrey;
+  font-family: 'Merriweather';
+}
+
+.tagline p {
+  margin: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: grey;
+  display: inline-block;
+}
+
+.emphasis {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+/* article */
+article {
+  border: 1px solid black;
+  background-image: url("../images/coworking.jpg");
+  background-position: 0 -50px;
+  background-size: 960px 650px;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  height: 550px;
+}
+
+article p {
+  font-size: 25px;
+}
+
+.box {
+  border: 1px solid black;
+  width: 375px;
+  height: 500px;
+  background-color: rgba(224, 224, 224, 0.75);
+  padding: 0px 30px;
+  position: relative;
+  top: 25px;
+  left: 550px;
+  font-family: 'Source Sans Pro';
+}
+
+.boxbutton {
+  border: 1px solid black;
+  text-align: center;
+  width: 315px;
+  padding: 10px;
+  margin: 50px 0px;
+  background-color: yellow; 
+  color: black;
+}
+
+/* aside */
+aside {
+  float: left;
+  width: 320px;
+  border: 1px solid lightgrey;
+  height: 375px;
+  padding: 30px;
+  background-color: #EEEEEE;
+
+}
+
+aside h2 {
+  font-size: 30px;
+  font-family: 'Merriweather';
+}
+
+aside p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro'
+}
+
+.button {
+  font-size: 25px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px;
+  background-color: #BBBBBB;
+}
+
+/* footer */
+footer {
+  float: left;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding-left: 30px;
+  font-size: 25px;
+  font-family: 'Source Sans Pro';
+}
+
+.bold_capslock {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald';
+}
