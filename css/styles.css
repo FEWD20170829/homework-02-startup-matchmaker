@@ -21,7 +21,6 @@ header  {
   height: 100px;
   border: 1px;
   margin: 0px;
-  font-family: sans-serif;
 }
 
 a {
@@ -52,13 +51,14 @@ h2  {
   text-align: right;
   font-size: large;
   margin:1px 8px 1px 8px;
-  font-family: serif;
+  word-spacing: 2px;
+  text-decoration: none;
 }
 
 nav span  {
   text-transform: uppercase;
   font-weight: bold;
-  font-family: sans-serif;
+  text-decoration: none;
 }
 
  .taste  {
@@ -100,9 +100,10 @@ section  {
   text-transform: uppercase;
   background-color: yellow;
   font-weight: bold;
-  position: absolute;
+  position: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-radius: 9px;
 }
 
 .head p {
@@ -155,13 +156,15 @@ section  {
   font-size: 15px;
   font-weight: bold;
   max-width: 100%
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
 }
 
 .module p {
   font-size: 19px;
-  padding-bottom: 5px;
+  padding-bottom: 14px;
+  padding-top: 14px;
   text-align: left center;
   padding-left: 29px;
   word-spacing: 2px;
@@ -184,7 +187,9 @@ section  {
   font-size: 15px;
   font-weight: bold;
   max-width: 100%
-  padding: 14px 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
 }
 
 .dev p {
@@ -212,7 +217,9 @@ section  {
   font-size: 15px;
   font-weight: bold;
   max-width: 100%
-  padding-top: 14px 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
 }
 
 .look p {
