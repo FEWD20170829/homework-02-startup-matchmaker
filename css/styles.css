@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: Merriweather, Source Sans Pro, Oswald;
+}
+
+/* body { 
+  background-color: white;
+  width: 100%;
+ } */
+
+#container {
+  width: 960px;
+  margin: auto;
+ }
+
+header {
+  background-color: black;
+  color: yellow;
+  height: 90px;
+  border-bottom: 3px solid yellow;
+  display: flex;
+  padding-bottom: 10px;
+ }
+
+ h2 {
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  height: 60px;
+  font-style: italic;
+  justify-content: center;
+ }
+
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
+ a:hover {
+  color: yellow;
+ }
+
+footer {
+  background-color: black;
+  color: white;
+  height: 40px;
+  float: left;
+  width: 100%
+ }
+
+.main {
+  border: 1px solid black;
+  width: 100%;
+  background-image: url("../images/coworking.jpg");
+  max-width: 100%;
+  float: left;
+}
+
+aside {
+  border: 1px solid #333333;
+  width: 700px;
+  float: left;
+  flex: 
+}
+
+.nav-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.section-container {
+  display: flex;
+  float: left;
+  width: 100%;
+  align-content: flex-end;
+}
+
+aside p {
+  float: left;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  border-right: solid 2px #eee
+}
+
+aside a {
+  color: black;
+  text-transform: uppercase;
+  background-color: lightgray;
+}
+
+aside a:hover {
+  color: red;
+}
+
+article a {
+  color: black;
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+article a:hover {
+  color: darkgreen;
+}
+
+span {
+  text-decoration: underline yellow;
+}
+
+.main-overlay {
+  color: black;
+  border: 2px solid lightgray;
+  width: 200px;
+  float: right;
+  padding: 25px;
+  margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
