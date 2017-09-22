@@ -82,7 +82,7 @@ section  {
   border-top: solid yellow;
 }
 
-.head  {
+div.head  {
   background-color: lightgrey;
   text-align: left;
   opacity: 0.6;
