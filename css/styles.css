@@ -42,7 +42,7 @@ h1  {
 h2  {
   height: 50px;
   color: #000000;
-  text-align: left;
+  text-align: center;
 }
 
 .nav-items {
@@ -160,8 +160,10 @@ section  {
 }
 
 .module p {
-  font-size: 20px;
-  margin: 1px;
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
   word-spacing: 2px;
 }
 
@@ -186,8 +188,10 @@ section  {
 }
 
 .dev p {
-  font-size: 20px;
-  margin: 1px;
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
   word-spacing: 2px;
 }
 
@@ -212,10 +216,11 @@ section  {
 }
 
 .look p {
-  font-size: 20px;
-  margin: 1px;
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
   word-spacing: 2px;
-
 }
 footer  {
   background-color: black;
