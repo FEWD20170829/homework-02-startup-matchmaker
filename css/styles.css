@@ -43,6 +43,7 @@ h2  {
   height: 50px;
   color: #000000;
   text-align: center;
+  margin: 5px;
 }
 
 .nav-items {
@@ -103,7 +104,6 @@ section  {
   text-transform: uppercase;
   background-color: yellow;
   font-weight: bold;
-  text-align: block;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 23px;
@@ -168,6 +168,7 @@ section  {
   padding-left: 23px
   padding-right: 23px;
   border-radius: 9px;
+  margin: 2px 98px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -195,12 +196,13 @@ section  {
 }
 
 .dev button {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: bold;
   max-width: 100%
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 9px;
+  margin: 40px 38px;
   text-transform: uppercase;
 }
 
@@ -233,6 +235,7 @@ section  {
   padding-bottom: 14px;
   border-radius: 9px;
   text-transform: uppercase;
+  margin: 13px 20px 23px 33px;
 }
 
 .look p {
