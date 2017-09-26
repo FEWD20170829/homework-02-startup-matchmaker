@@ -1,0 +1,125 @@
+body{ 
+  box-sizing: border-box; 
+}  
+
+.container{
+  width:800px;
+  margin:auto;
+}
+
+h1{
+  color: #fdf65e;
+  background-color: #000;
+  padding: 8px;
+  margin:0px;
+  font-size:40px;
+}
+
+nav{
+  
+  background-color: #000;
+  padding: 8px;
+  display:block;
+  text-align: right;
+  border-bottom: #fdf65e solid 4px ;
+}
+a{
+  color:#fff;
+  font-size:30px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.speciallink{
+  font-style: bold;
+  font-family: impact;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  font-size:30px;
+  background-color: #c6c6c6;
+  margin:0px;
+  padding: 12px;
+}
+
+.taste{
+color:#999999;
+text-decoration: line-through;
+}
+
+.are{
+border-bottom: solid #fdf65e;
+}
+
+.background{
+  background-position:center center;
+  width:100%;
+  max-height:500px;
+  position:relative;
+  float:left;
+}
+
+img{  
+  width:100%;
+  position:relative;
+  float:left;
+}
+.meetyourmatch{
+background-color: rgba(255,255,255,.8);
+box-shadow: 10px 10px 5px #888888;
+float:right;
+position: relative;
+bottom:500px;
+width:35%;
+margin:10px 40px 10px 10px;
+padding: 30px;
+height: auto;
+}
+
+.capbutton{
+  background-color:#fdf65e;
+}
+
+h3{
+  font-size: 24px;
+}
+
+h4{
+  font-size: 24px;
+}
+
+article{
+  border-right:solid #999999 1px;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.bottomboxes{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button{
+  border-radius: 8px;
+  background-color: #c6c6c6;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 8px;
+  width: 70%;
+  text-align: center;
+  font-family:impact;
+  align-self:center;
+}
+
+.copyright{
+float:left;
+width:780px;
+background-color: black;
+display:block;
+color:white;
+padding:10px ;
+font-family:helvetica;
+margin-top:10px;
+}
