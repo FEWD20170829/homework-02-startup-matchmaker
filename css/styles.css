@@ -75,7 +75,7 @@ body  {
 
 .article div {
   float: right;
-  width: 30%;
+  width: 29%;
   border: 1px solid #333333;
   box-shadow: 1px 1px #333333;
   height: 450px;
@@ -83,32 +83,22 @@ body  {
   margin-top: 20px;
   margin-right: 20px;
   padding: 25px;
+  position: relative;
 
 }
 .article p {
   font-size: 23px;
   text-align: left;
-
-
 }
-
-.yellowbox {
-position: absolute;
+.article button {
 background-color: yellow;
 top: 590px;
-left: 940px;
+left: 950px;
 height: 75px;
 width: 260px;
+font-weight: bold;
 
 }
-
-.yellowbox p{
-  font-family: Impact,fantasy;
-  text-align: center;
-  font-size: 25px;
-}
-
-
 .create {
   background-color: yellow;
   width: 50px;
@@ -124,9 +114,7 @@ width: 260px;
   text-align: center;
   padding: 15px;
   font-size: 20px;
-  
-  
-}
+ }
 
 .section2 {
   float: left;
@@ -134,69 +122,49 @@ width: 260px;
   height: 300px;
   background-color: white;
   border-right: 1px solid lightgray;
-text-align: center;
+  text-align: center;
   padding: 15px;
   font-size: 20px;
-  
-  
-}
+ }
 
 .section3 {
   float: left;
   width: 33.3%;
   height: 300px;
   background-color: white;
-text-align: center;
+  text-align: center;
   padding: 15px;
   font-size: 20px;
 }
 
-.signupbox {
-position: absolute;
+.section1 button {
+position: relative;
 background-color: #C0C0C0;
-top: 925px;
-left: 225px;
+top: 10px;
+left: 1%;
 height: 75px;
 width: 260px;
 }
 
-.signupbox p  {
-font-family: Impact,fantasy;
-  text-align: center;
-  font-size: 25px;
 
-}
-.middlesignbox  {
-position: absolute;
+.section2 button {
+position: relative;
 background-color: #C0C0C0;
-top: 925px;
-left: 580px;
+top: 10px;
+left: 1%;
 height: 75px;
 width: 260px;
 }
 
-.middlesignbox p {
-font-family: Impact,fantasy;
-  text-align: center;
-  font-size: 25px;
-}
 
-.rightsignbox {
-position: absolute;
+.section3 button {
+position: relative;
 background-color: #C0C0C0;
-top: 925px;
-left: 940px;
+top: 32px;
+left: 1%;
 height: 75px;
 width: 260px;
 }
-
-.rightsignbox p{
-font-family: Impact,fantasy;
-  text-align: center;
-  font-size: 25px;
-}
-
-
 
 
 footer  {
