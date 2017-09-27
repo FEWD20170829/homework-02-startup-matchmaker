@@ -139,7 +139,7 @@ section  {
   background-color: yellow:
   height: 200px;
   width: 25%;
-  max-width: 100%
+  max-width: 100%;
   border: 1px solid #333;
   align-items: center;
 }
