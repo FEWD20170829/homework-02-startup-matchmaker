@@ -54,12 +54,15 @@ h2  {
   font-size: large;
   margin:1px 8px 1px 34px;
   word-spacing: 2px;
-  text-decoration: none;
 }
 
 nav span  {
   text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
