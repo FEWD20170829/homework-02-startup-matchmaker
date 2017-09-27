@@ -233,7 +233,7 @@ section  {
   background-color: lightgrey;
   font-size: 18px;
   font-weight: bold;
-  max-width: 100%
+  max-width: 100%;
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 9px;
@@ -264,3 +264,4 @@ footer p {
   margin: 1px;
   padding: 10px;
 }
+
