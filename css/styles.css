@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header{
+  background-color: black;
+  height: 110px;
+}
+
+
+h1 {
+  font-family: 'Merriweather', serif;  
+  color: yellow;
+  padding-left: 25px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+nav {
+  display: inline;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+a.bold {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+a:link {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0px;
+  background-color: yellow;
+  height: 3px;
+  border: none;
+}
+
+article {
+  background-image: url(../images/coworking.jpg);
+  background-size: 100%;
+  height: 475px;
+  background-color: red;
+}
+
+h2  {
+  font-family: 'Merriweather', serif; 
+  background-color: #C8C8C8;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 17px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.remove {
+  color: #A0A0A0;
+  text-decoration: line-through;
+}
+
+.emphasize {
+  border-bottom: solid 2px yellow;
+  padding-bottom: .5px;
+  text-decoration-color: yellow
+}
+
+.transparentbox {
+  width: 264px;
+  background-color: rgba(225, 225, 225, 0.75);
+  padding: 15px;
+  position: relative;
+  left: 525px;
+  top: 25px;
+  box-shadow: 0px 0px 3px 1px #888888;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.transparentbox h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.transparentbox p {
+  font-size: 18px;
+  line-height: 26px;
+  padding-right: 5px;
+}
+
+aside.left, aside.center {
+  border-right: solid 1px #D0D0D0;
+}
+
+aside.left, aside.center, aside.right {
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 25px 20px;
+  width:33.333%;
+  float:left;
+}
+
+.button {
+  background-color: #C8C8C8;
+  text-transform: uppercase;
+  font-style: bold; 
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 1px 2px #A8A8A8;
+  border-radius: 3px;
+}
+
+.featuredbutton {
+  background-color: yellow;
+  text-transform: uppercase;
+  font-style: bold; 
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 1px 3px #A8A8A8;
+  border-radius: 3px;
+}
+
+.left p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+aside.center p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+aside.right p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+  clear: left;
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-top: .15px;
+  padding-left: 10px;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px
+}
