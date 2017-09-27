@@ -116,10 +116,7 @@ aside.left, aside.center, aside.right {
   color: black;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 20px;
   width:33.333%;
   float:left;
 }
