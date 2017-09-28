@@ -49,11 +49,12 @@ h2  {
 
 .nav-items {
   color: white;
-  padding: 1px 10px;
-  text-align: center;
-  font-size: large;
+  padding: 4px 46px;
+  text-align: right;
+  font-size: larger;
   margin:1px 8px 1px 34px;
   word-spacing: 0.5em;
+  letter-spacing: 2px;
 }
 
 nav span  {
@@ -81,7 +82,8 @@ section  {
   height: 90px;
   background-color: lightgrey;
   margin: 0px;
-  padding: 20px;
+  padding: 24px;
+  padding-left: 34px; 
   text-align: center;
   font-size: 35px;
   border-top: solid yellow;
