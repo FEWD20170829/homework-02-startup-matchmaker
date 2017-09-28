@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    float: center center;
+    background-color: lightgrey;
+    font-family: Merriweather;
+    border: 1px solid grey;
+  }
+
+img.background {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    float: center;
+  }
+
+header  {
+  color: white;
+  background-color: #000000;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #6A5ACD;
+}
+
+h1  {
+  color: yellow;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  margin: 1px 8px 1px 8px;
+}
+
+h2  {
+  height: 50px;
+  color: #000000;
+  text-align: center;
+  margin: 5px;
+}
+
+.nav-items {
+  color: white;
+  padding: 4px 46px;
+  text-align: right;
+  font-size: larger;
+  margin:1px 8px 1px 34px;
+  word-spacing: 0.5em;
+  letter-spacing: 2px;
+}
+
+nav span  {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  word-spacing: 5px;
+}
+
+ .taste  {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.are  {
+  color: black;
+  text-decoration: underline yellow;
+
+}
+
+section  {
+  height: 90px;
+  background-color: lightgrey;
+  margin: 0px;
+  padding: 24px;
+  padding-left: 34px; 
+  text-align: center;
+  font-size: 35px;
+  border-top: solid yellow;
+}
+
+.head  {
+  background-color: lightgrey;
+  text-align: left;
+  opacity: 0.6;
+  border: 1px solid #333;
+  width: 30%;
+  margin: 36px 67px 0px 0px;
+  float: right;
+  padding-bottom: 20px;
+  padding-top: 25px; 
+  padding-right: 29px;
+
+}
+
+.head button  {
+  font-size: 18px;
+  max-width: 100%;
+  text-transform: uppercase;
+  background-color: yellow;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 9px;
+  float: right;
+  margin: 5px 51px 0px 0px;
+}
+
+.head p {
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
+  word-spacing: 0.6em;
+}
+
+.head h2  {
+  font-size: 35px;
+  margin: 1px;
+  text-align: center;
+}
+
+.people_chair {
+  background: url(../images/coworking.jpg);
+  height: 500px; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.article  {
+  float: left;
+  background-color: yellow;
+  height: 200px;
+  width: 25%;
+  max-width: 100%;
+  border: 1px solid #333;
+  align-items: center;
+}
+
+
+.module  {
+  float: left;
+  background-color: white;
+  height: 300px;
+  border-right: 1px solid lightgrey;
+  border-top: 20px solid white;
+  border-bottom: 40px solid white;
+  width: 34%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-right-color: lightgrey;
+}
+
+.module button  {
+  background-color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 9px;
+  margin: 2px 98px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.module p {
+  font-size: 19px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  text-align: left center;
+  padding-left: 29px;
+  word-spacing: 2px;
+}
+
+.dev  {
+  float: left;
+  background-color: white;
+  height: 300px;
+  border-right: 1px solid lightgrey;
+  border-top: 20px solid white;
+  border-bottom: 40px solid white;
+  width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right-color: lightgrey;
+}
+
+.dev button {
+  background-color: lightgrey;
+  font-size: 21px;
+  font-weight: bold;
+  max-width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
+  margin: 40px 38px;
+  text-transform: uppercase;
+}
+
+.dev p {
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
+  word-spacing: 2px;
+}
+
+.look {
+  float: left;
+  background-color: white;
+  height: 300px;
+  border-right: 1px solid lightgrey;
+  border-top: 20px solid white;
+  border-bottom: 40px solid white;
+  width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right-color: lightgrey;
+}
+
+.look button  {
+  background-color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  margin: 13px 20px 23px 33px;
+}
+
+.look p {
+  font-size: 19px;
+  padding-bottom: 5px;
+  text-align: left center;
+  padding-left: 29px;
+  word-spacing: 2px;
+}
+footer  {
+  background-color: black;
+  color: white;
+  border-right: 10px solid black;
+  margin: 0px;
+  float: left;
+  width: 100%;
+  clear: left;
+  padding-top: 10px;
+}
+
+footer p {
+  font-size: 25px;
+  margin: 1px;
+  padding: 10px;
+}
+
