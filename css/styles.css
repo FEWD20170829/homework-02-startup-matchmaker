@@ -51,10 +51,11 @@ button{
 
 .content {
   width: 20%;
-  height: 50%;
+  padding-bottom: 30px;
+  padding-top: 15px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 60%;
+  top: 40%;
   text-align: left;
   background-color: rgba(253, 254, 254, 0.7); 
   overflow: auto;
@@ -146,7 +147,7 @@ header .logo {
 .nav-item{
 	width: 90%;
 	float:left;
-  margin-left: 25%;
+  margin-left: 15%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   color: white;
