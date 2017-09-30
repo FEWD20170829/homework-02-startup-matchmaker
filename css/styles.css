@@ -7,7 +7,8 @@ body {
   width: 960px;
   height: 100vh;
   font-family: "Source Sans Pro";
-  margin: 0px;
+  margin: auto;
+
 }
 
 h1 {
@@ -25,6 +26,7 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   align-content: space-between;
+  padding:10px;
 }
 
 nav a {
@@ -56,12 +58,12 @@ h6 {
   position: relative;
   left: 5%;
   top: 35%;
-  margin: 10px, 10px, 10px, 10px;
+  margin: 10px;
 }
 
 .header {
   background-color: black;
-  height: 15%;
+ /* height: 15%;*/
 }
 
 .break {
@@ -96,13 +98,14 @@ h6 {
 .action{
   background-color: hsla(0,0%,100%,0.8);
   width: 35%;
-  height: 90%;
+ /* height: 90%;*/
   position: relative;
   left: 60%;
   top: 5%;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 2%;
+  padding-bottom: 3%;
   box-shadow: 5px 2px 2px hsla(0,0%,0%,.2);
 }
 
@@ -116,6 +119,7 @@ h6 {
   width: 80%;
   position: relative;
   left: 10%;
+  padding-bottom: 10px;
 }
 
 .action p, h3 {
