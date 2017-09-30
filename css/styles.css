@@ -1,0 +1,178 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: none;
+  width: 960px;
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  margin: auto;
+
+}
+
+h1 {
+  color:yellow;
+  position: relative;
+  left: 3%;
+  top: 13%;
+}
+
+nav {
+  position: relative;
+  right: 45px;
+  top:5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: space-between;
+  padding:10px;
+}
+
+nav a {
+  margin-left: 15px;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+u {
+  text-decoration-color: yellow;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+h6 {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 5%;
+  top: 35%;
+  margin: 10px;
+}
+
+.header {
+  background-color: black;
+ /* height: 15%;*/
+}
+
+.break {
+  height: 3px;
+  background-color: yellow;
+}
+.subtitle {
+  clear: left;
+  background-color: lightgray;
+  height: 50px;
+ }
+
+ .subtitle > p {
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  top:15px;
+  font-size: 20px;
+ }
+
+.header {
+  background-color: black;
+}
+
+.image{
+  background-image: url('../images/coworking.jpg');
+  background-size: contain;
+  height: 50%;
+
+}
+
+.action{
+  background-color: hsla(0,0%,100%,0.8);
+  width: 35%;
+ /* height: 90%;*/
+  position: relative;
+  left: 60%;
+  top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  box-shadow: 5px 2px 2px hsla(0,0%,0%,.2);
+}
+
+.firstbutton {
+  background-color: yellow;
+  font: yellow;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: inset 0px -2px hsl(0,0%,50%);
+  height: 15%;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  padding-bottom: 10px;
+}
+
+.action p, h3 {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+
+.triples {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.triplet {
+  width: 25%;
+  height: 100%;
+}
+
+.triplet p {
+  margin-bottom: 30%;
+  width: 70%;
+}
+
+.left {
+  position: relative;
+  left: 4%;
+}
+
+
+.buttontwo {
+  background-color: hsl(0,0%,75%);
+  text-align: center;
+  box-shadow: 5px;
+  width: 70%;
+  box-shadow: inset 0px -2px hsl(0,0%,50%);
+  border-radius: 5px;
+  height: 50px;
+}
+
+.firstbutton, .buttontwo {
+  text-align: center;
+  padding-top: 5%;
+}
+
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  clear: left;
+}
+
+
