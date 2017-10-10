@@ -30,7 +30,6 @@ article {
 
 aside {
   clear: both;
-  height: 45vh;
   width: 100%;
 }
 
@@ -91,7 +90,7 @@ h1 {
 
 .hero {
   background-image: url("../images/coworking.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-top: 1px solid black;
