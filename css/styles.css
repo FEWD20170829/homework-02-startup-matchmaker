@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
-*{ font-family: Merriweather, Source Sans Pro, Oswald;
-  font-weight: lighter;
+
+body { font-family: Merriweather, Source Sans Pro, Oswald;
+  /*font-weight: lighter;*/
 }
 
 header {
@@ -59,8 +60,6 @@ h1 {
  }
 .section {
   height: 175px;
-  background-color: #eee;
-  border: 1px solid #333;
   float: left;
   width: 30%;
   margin-top: 15px;
@@ -87,9 +86,11 @@ article {
 }
 
 aside {
- clear: both;
- height: 45vh;
- width: 100%;
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+  width: 100%
+  padding: 15px;
 }
 
 .tagline {
@@ -129,7 +130,7 @@ aside {
   text-align: center;
  }
 
-.sidebar {
+.image-container {
   background-image: url("../images/coworking.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -137,17 +138,17 @@ aside {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 100%;
-  height: 83vh;
   float: left;
  }
 
 .overlay {
    background-color: rgba(255,255,255,0.7);
    width: 300px;
-   height: 400px;
    margin: 40px;
+   padding: 0px 23px 21px 29px;
    float: right;
    padding: 25px;
+   box-shadow: 1px 1px 1px 1px #ada8ad;
  }
 
  .overlay p {
@@ -160,21 +161,30 @@ aside {
    overflow: auto;
    background-color: white;
    margin: 1%;
-   float: left;
-   width: 28%;
    height: 80%;
-   border-right: 1px solid grey;
+   border-right: 1px solid #eae6e6;
    padding: 15px;
+ }
+
+.callout p {
+   font-family: sans-serif;
  }
 
 .yellow-btn {
   background: yellow;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: impact, Charcoal, sans-serif;
+  border-radius: 9px;
  }
 
-.no-border {
+.no-right--border {
    border-right: none;
  }
-.grey-btn p {
+.grey-btn  {
   background-color: lightgrey;
   font-family: impact, Charcoal, sans-serif;
   border-radius: 9px;
@@ -187,15 +197,10 @@ aside {
   text-align: center;
  }
 
-.callout p {
-   font-family: sans-serif;
- }
-
 footer {
  background-color: black;
  clear: both;
  width: 100%;
- height: 20px;
  font-family: sans-serif;
  color: white;
  padding: 15px;
