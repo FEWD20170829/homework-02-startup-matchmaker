@@ -3,7 +3,7 @@
 }
 
 body { font-family: Merriweather, Source Sans Pro, Oswald;
-  /*font-weight: lighter;*/
+  
 }
 
 header {
@@ -163,7 +163,7 @@ aside {
    margin: 1%;
    height: 80%;
    border-right: 1px solid #eae6e6;
-   padding: 15px;
+   padding: 15px 10px 20px 50px ;
  }
 
 .callout p {
@@ -187,14 +187,17 @@ aside {
 .grey-btn  {
   background-color: lightgrey;
   font-family: impact, Charcoal, sans-serif;
-  border-radius: 9px;
-  box-shadow: 0px 3px 0px #ada8ad;
+  border-radius: 4px;
+  box-shadow: 0px 1px 0px #ada8ad;
   font-family: impact, Charcoal, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   padding: 6px 10px 6px 10px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 15px;
+  width: 195px;
+  padding: 10px;
  }
 
 footer {
